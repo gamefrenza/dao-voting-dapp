@@ -1,0 +1,48 @@
+####Cursor Prompts
+1. Setting Up the Project
+Prompt:
+"Create a new React project for building a decentralized voting dApp with TypeScript. Install necessary dependencies such as ethers, web3, dotenv, and React Bootstrap. Set up a clean project structure for components and hooks."
+
+2. Writing the Smart Contract
+Prompt:
+"Write a Solidity smart contract for a decentralized voting platform. Include functionality for proposal creation, voting, and viewing results. Use a constructor to initialize proposals and include security measures like preventing duplicate voting."
+
+3. Setting Up Hardhat for Smart Contract Deployment
+Prompt:
+"Set up Hardhat in the project to compile, test, and deploy the Voting.sol smart contract. Write a deployment script that initializes the contract with three proposals and deploys it to the Goerli testnet."
+
+4. Connecting React to the Blockchain
+Prompt:
+"Write a React hook to connect the frontend to the Ethereum blockchain. Include wallet connection functionality using MetaMask and integrate ethers.js to fetch the deployed Voting contract's data."
+
+5. Displaying Proposals
+Prompt:
+"Create a React component called ProposalList to fetch and display the list of proposals from the Voting contract. Each proposal should display its description and vote count."
+
+6. Adding Voting Functionality
+Prompt:
+"Implement a voting feature in the ProposalList component. When a user clicks a 'Vote' button next to a proposal, call the vote function in the Voting contract. Ensure the UI updates after voting."
+
+7. Creating a Wallet Connection Component
+Prompt:
+"Create a Header component for the React app that includes a 'Connect Wallet' button. Display the user's wallet address after they connect their wallet using MetaMask."
+
+8. Styling the Frontend
+Prompt:
+"Style the decentralized voting platform using React Bootstrap. Make the UI responsive with a header, a proposal list, and a footer."
+
+9. Testing Smart Contract Interactions
+Prompt:
+"Write unit tests for the Voting.sol smart contract using Hardhat's testing suite. Test functionalities such as proposal initialization, voting, and duplicate voting prevention."
+
+10. Deploying the Application
+Prompt:
+"Deploy the React frontend to a live environment using Vercel or Netlify. Ensure the dApp is connected to the Ethereum Goerli testnet and displays accurate contract data."
+
+11. Adding Error Handling
+Prompt:
+"Enhance the React app by adding error handling. Display user-friendly messages for common issues like transaction rejections, wallet not connected, or contract errors."
+
+12. Improving UX with Real-Time Updates
+Prompt:
+"Integrate a WebSocket or polling mechanism to fetch real-time updates for voting results and display them dynamically in the frontend."
